@@ -1,0 +1,66 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1 {
+  font-family: 'Courier New', Courier, monospace;
+  background: palevioletred;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-size: 50px;
+  text-shadow: 2px 2px 5px lightpink;
+  background-image: linear-gradient(white, white);
+  height:70px;
+}
+
+.app {
+  background-image: linear-gradient(white, palevioletred);
+  padding: 0px 90px;
+  height: 100vh;
+}
+
+.todo-list{
+  background: lightpink;
+  border-radius: 1px;
+  padding: 1px;
+  max-width: 400px;
+}
+
+.todo{
+  font-family: 'Courier New', Courier, monospace;
+  text-shadow: 2px 2px whitesmoke;
+  background:lightpink;
+  box-shadow: 1px 1px 1px rgb(170, 66, 101);
+  padding: 3px 10px;
+  font-size: 24px;
+  margin-bottom: 6px;
+  display:flex;
+  padding: 1rem;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.input{
+  font-family: 'Courier New', Courier, monospace;
+  width: 100%;
+  background-color: lightcoral;
+  color: bisque;
+  box-sizing: border-box;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: none;
+  padding: 1rem;
+  height: 2.25em;
+  font-size: 24px;
+}
